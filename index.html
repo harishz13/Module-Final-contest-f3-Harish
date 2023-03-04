@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Harish Search Books</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        //refresh event detection for page
+        if (window.performance && window.performance.navigation.type === window.performance.navigation.TYPE_RELOAD) {
+          // Redirect to new page
+          window.location = "search-history.html";
+        }
+      </script>
+  </head>
+  <body>
+    <nav>
+        <p id="head">Book Store App</p>
+        <hr>
+    </nav>
+
+    <h1>Search for the Books by their Name</h1>
+    <form id="search-form">
+      
+      <input type="text" id="search-input"
+      placeholder="Search the book here....."  name="search-input" /><br>
+      <button type="submit" id="search-btn">Search</button>
+    </form>
+    <div id="search-results"></div>
+   
+    <ul id="search-history"></ul>
+    <script src="index.js"></script>
+  </body>
+</html>

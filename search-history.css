@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+#head{
+    background-color: black;
+    color: white;
+    padding: 19px;
+}
+
+#clear-history{
+    margin-top: 14px;
+    margin-left: 8px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+h3{
+    color: white;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+#search-history{
+   padding: 20px 10px;
+   list-style-type: none;
+}
